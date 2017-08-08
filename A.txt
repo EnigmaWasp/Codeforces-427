@@ -1,0 +1,9 @@
+var f , s , n , v1 , v2 , t1 , t2 : longint;
+begin
+	readln(n , v1 , v2 , t1 , t2);
+	f := 2 * t1 + n * v1;
+	s := 2 * t2 + n * v2;
+	if f < s then writeln('First')
+	else if f > s then writeln('Second')
+	else writeln('Friendship');
+end.
